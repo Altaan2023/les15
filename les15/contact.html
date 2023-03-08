@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stijl.css" type="text/css">
+    </head>
+    <body>
+        <Header>
+            <h1>Webdesign</h1>
+            <nav>
+           <ul>
+            <li> <a href="index.html" > home</a></li>
+            <li><a href="mijncv.html" > Mijn CV</a></li>
+            <li><a href="contact.html" > contact</a></li>
+           </ul>
+           </nav>
+        </Header>
+          <h2>contactformulier</h2>
+          <form id="contactformulier" method="post" action="https://formspree.io/f/mleknqkg">
+            <input name="voornaam"  type="text" placeholder="Uw voornaam" />
+            <input type="text" name="achternaam" placeholder="Uw achternaam" />
+            <input type="text" name="bericht" placeholder="Uw adres" />
+            <input type="email" name="e-mailadres"  placeholder="Uw e-mailadres" />
+            <textarea name="tekst" placeholder="Uw bericht"></textarea>
+            <input type="radio" name="geslacht" value="man" checked>Man
+            <input type="radio" name="geslacht" value="vrouw">Vrouw
+            <input type="radio" name="geslacht" value="anders">Anders
+            <button>Verzend</button>
+          </form>
+    </body>
+    <footer>
+        <p id="twee"> Copyright &copy; 2023 Kh. Altaan </p>
+    </footer>
